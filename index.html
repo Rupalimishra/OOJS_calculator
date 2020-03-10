@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="calc-parent">
+        <div class="row">
+            <div class="column" id="calc-display-val">0</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn clac-btn-operator column" id="calc-clear" onclick="clearfun('dfsdfsd')">AC</div>
+            <div class="calc-btn calc-btn-operator column" id="calc-backspace">&#8676;</div>
+            <div class="calc-btn calc-btn-operator column" id="calc-mod" onclick="check('%')">%</div>
+            <div class="calc-btn calc-btn-operator column" id="calc-divide" onclick="operator('/')">/</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn calc-btn-num column" id="calc-seven" onclick="check('7')">7</div>
+            <div class="calc-btn calc-btn-num column" id="calc-eight" onclick="check('8')">8</div>
+            <div class="calc-btn calc-btn-num column" id="calc-nine" onclick="check('9')">9</div>
+            <div class=" calc-btn calc-btn-operator column" id="calc-multiply" onclick=" operator('*')">x</div>
+        </div>
+
+        <div class="row">
+            <div class="calc-btn calc-btn-num column" id="calc-four" onclick="check('4')">4</div>
+            <div class="calc-btn calc-btn-num column" id="calc-five" onclick="check('5')">5</div>
+            <div class="calc-btn calc-btn-num column" id="calc-six" onclick="check('6')">6</div>
+            <div class="calc-btn calc-btn-operator column" id="calc-minus" onclick="operator('-')">-</div>
+
+        </div>
+        <div class="row">
+            <div class="calc-btn calc-btn-num column" id="calc-one" onclick="check('1')">1</div>
+            <div class="calc-btn calc-btn-num column" id="calc-two" onclick="check('2')">2</div>
+            <div class="calc-btn calc-btn-num column" id="calc-three" onclick="check('3')">3</div>
+            <div class=" calc-btn calc-btn-operator column" id="calc-plus" onclick="operator('+')">+</div>
+
+        </div>
+        <div class="row">
+            <div class="calc-btn calc-btn-num column" id="calc-zero" onclick="check('0')">0</div>
+            <div class="calc-btn column" id="calc-decimal" onclick="decimalval('.')">.</div>
+            <div class=" calc-btn calc-btn-operator column" id="calc-equals" onclick="equal()">=</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
